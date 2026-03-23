@@ -1,0 +1,18 @@
+:root {
+}
+
+.textInput {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/Fonts/Roboto-VariableFont_wdth,wght%20SDF.asset?fileID=11400000&guid=754c470e5a0f6574985596ff4017803e&type=2#Roboto-VariableFont_wdth,wght SDF");
+}
+
+.button {
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+}
+
+.button:active {
+    scale: 0.8 0.8;
+}

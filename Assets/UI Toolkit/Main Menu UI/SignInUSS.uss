@@ -1,0 +1,37 @@
+:root {
+}
+
+.background {
+}
+
+.button {
+    position: absolute;
+    align-items: auto;
+    align-self: center;
+    width: 600px;
+    height: 200px;
+    border-top-left-radius: 76px;
+    border-top-right-radius: 76px;
+    border-bottom-right-radius: 76px;
+    border-bottom-left-radius: 76px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    translate: 0 415px;
+    -unity-font-definition: url("project://database/Assets/Fonts/LuckiestGuy-Regular%20SDF%201.asset?fileID=11400000&guid=d5ea59005f57e1c4a8339c439a3d0f6a&type=2#LuckiestGuy-Regular SDF 1");
+    font-size: 77px;
+    transition-duration: 0.35s;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+}
+
+.button:active {
+    scale: 0.85 0.85;
+}

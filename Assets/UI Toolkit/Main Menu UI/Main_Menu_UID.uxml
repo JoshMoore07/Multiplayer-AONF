@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuUSS.uss?fileID=7433441132597879392&amp;guid=92712274527f1224cba0a967aab3024a&amp;type=3#MainMenuUSS"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Image name="Background" source="project://database/Assets/Assets/Untitled%20design.png?fileID=2800000&amp;guid=116b093123a93dd4e9d57f2afeda435b&amp;type=3#Untitled design" scale-mode="StretchToFill" uv="0,0,1,1" focusable="false" class="background"/>
+        <ui:Image name="Title" source="project://database/Assets/Assets/UI_Pack/Sprites/Panels/05.png?fileID=2800000&amp;guid=9511ebc39469daf4a996d49c7c7c2d57&amp;type=3#05" scale-mode="StretchToFill" class="titleSprite">
+            <ui:Label text="Adventures of Ninja Frog&#10;" name="TitleText" class="titleText" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/LuckiestGuy-Regular%20SDF%201.asset?fileID=11400000&amp;guid=d5ea59005f57e1c4a8339c439a3d0f6a&amp;type=2#LuckiestGuy-Regular SDF 1&quot;);"/>
+        </ui:Image>
+        <ui:Button text="PLAY" name="Play" class="button" style="align-self: center; transform-origin: center; translate: 687px 366px; -unity-text-align: middle-center; position: absolute;"/>
+        <ui:Button text="SETTINGS" name="Settings" class="button" style="align-self: center; transform-origin: center; translate: 687px 648px; position: absolute;"/>
+        <ui:Button text="SIGN OUT" name="SignOut" class="signOutButton" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/LuckiestGuy-Regular%20SDF%201.asset?fileID=11400000&amp;guid=d5ea59005f57e1c4a8339c439a3d0f6a&amp;type=2#LuckiestGuy-Regular SDF 1&quot;); color: rgb(27, 27, 27); bottom: 1%; right: 0.5%;">
+            <ui:Label text="" name="PlayerName" style="position: absolute; translate: -6px -84px; font-size: 43px; -unity-text-align: lower-left;"/>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
