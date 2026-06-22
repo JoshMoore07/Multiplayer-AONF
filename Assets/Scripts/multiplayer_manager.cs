@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
@@ -71,6 +72,16 @@ public class multiplayer_manager : MonoBehaviour
             {
                 IsPrivate = false,
 
+            };
+
+            options.Data = new Dictionary<string, DataObject>()
+            {
+                {
+                    "RelayCode", new DataObject(
+                    visibility: DataObject.VisibilityOptions.Public,
+                    value: joinCode
+                    )
+                }
             };
             Lobby lobby = await LobbyService.Instance.CreateLobbyAsync(lobbyName, maxPlayers, options);
             string lobbyCode = lobby.LobbyCode;

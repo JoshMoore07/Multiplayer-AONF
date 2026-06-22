@@ -1,6 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/SignInUSS.uss?fileID=7433441132597879392&amp;guid=55946f3e45e5f8642b501f489cd02871&amp;type=3#SignInUSS"/>
-    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.98);">
+    <Style src="project://database/Assets/UI%20Toolkit/Main%20Menu%20UI/SignInUSS.uss?fileID=7433441132597879392&amp;guid=55946f3e45e5f8642b501f489cd02871&amp;type=3#SignInUSS"/>
+    <ui:VisualElement picking-mode="Position" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.98);">
         <ui:Button text="SIGN IN" name="SignIn" class="button" style="translate: -598px 415px;"/>
         <ui:Button text="SIGN UP" name="SignUp" class="button" style="translate: 598px 415px;"/>
     </ui:VisualElement>
